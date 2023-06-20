@@ -72,6 +72,10 @@ public class AddCustomer extends JFrame implements ActionListener{
 		female.setBounds(290,200,100,25);
 		female.setBackground(Color.white);
 		add(female);
+
+		ButtonGroup gendergroup=new ButtonGroup();
+		gendergroup.add(male);
+		gendergroup.add(female);
 		
 		country=new JLabel("Country");
 		country.setBounds(35,240,100,20);
